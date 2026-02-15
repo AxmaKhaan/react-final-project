@@ -1,0 +1,35 @@
+header {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(250, 248, 248);
+    z-index: 1;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.49);
+}
+header .navbar {
+    /* background-color: rgb(252, 250, 250); */
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    width: 90%;
+    padding: 13px;
+}
+header nav .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: black;
+    display: flex;
+}
+header nav .links .nav-link {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    font-size: 1.4rem;
+}
+header nav .logo {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}

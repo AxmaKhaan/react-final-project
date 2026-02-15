@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+section {
+  padding: 10vw 12vw;
+}
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* background-color: #0B1020;   dark theme */
+  /* color: #fff;
+  line-height: 1.6;
+  width: 100vw; */
+  color: #e6e9f2;
+}
+button {
+  background-color: #f7af07;
+  /* color: rgb(248, 230, 197); */
+  color: rgba(0, 0, 0, 0.551);
+  border: 1px solid #e6e9f2;
+  padding: 9px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+button:hover {
+  box-shadow: 2px 2px 5px rgb(49, 49, 49);
+  border: 2px solid #e6e9f2;
+}
+.hero-section {
+  padding: 0;
+  margin-top: 0;
+}
+.hero-section .container {
+  background-image: url("src/assets/hero_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 140vh;
+  max-height: 140vh;
+  margin-top: 0;
+  padding: 0;
+}
+.hero-section .container .box {
+  /* background: #842a9b; */
+  background: #2A7B9B;
+background: linear-gradient(90deg,rgba(42, 123, 155, 0.41) 0%, rgba(139, 87, 199, 0.45) 50%, rgba(237, 221, 83, 0.44) 100%);
+
+  position: absolute;
+  top: 40%;
+  padding: 7% 5%;
+  height: 160px;
+  max-height: 300px;
+}
+.hero-section .container .box span {
+  margin: 50px 20px;
+}
+.main_section {
+  /* margin-top: 20px; */
+  box-shadow: 0 -3px 15px black;
+  padding: 5vw;
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.65) 0%,
+    rgba(9, 9, 121, 0.69) 35%,
+    rgba(0, 212, 255, 0.71) 100%
+  );  
+  
+}
+
+.main_section .m_cont .cont-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 5vw;
+}
+.main_section .m_cont .cont-1 h3 {
+  text-align: center;
+  font-size: 2rem;
+}
+.main_section .m_cont .cont-1 p {
+  text-align: center;
+  width: 90%;
+}
+.m_cont .cont-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.m_cont .cont-2 .block {
+  background-color: #e6e9f2;
+  padding: 30px;
+  border-radius: 8px;
+}
+.m_cont .cont-2 .block span img {
+  width: 300px;
+  border-radius: 8px;
+}
+.m_cont .cont-2 .block span p {
+  width: 300px;
+  color: rgb(110, 110, 238);
+  font-weight: bold;
+}
+
+/* main-section-2 */
+/* contain catagories */
+
+.main-sect-2 {
+  background: #c1f0f7;
+background: linear-gradient(174deg, rgba(193, 240, 247, 0.88) 0%, rgb(243, 246, 251) 100%);
+}
+.main-sect-2 .contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-sect-2 .contain .course_cards {
+  background-color: #f4f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+  animation: scrolling linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
+  width: 300px;
+  max-width: 450px;
+}
+.main-sect-2 .contain .course_cards span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.main-sect-2 .contain .course_cards h5 {
+  font-size: 2rem;
+  color: rgb(14, 124, 124);
+  text-align: center;
+}
+.main-sect-2 .contain .course_cards p {
+  color: #0b1020ad;
+  font-size: 0.9rem;
+  text-align: center;
+}
+.main-sect-2 .contain .course_cards button {
+  background-color: transparent;
+  border: 2px solid rgb(195, 223, 223);
+  color: rgb(46, 136, 136);
+  font-size: 20px;
+}
+.main-sect-2 .contain .course_cards button:hover {
+  background-color: rgb(91, 187, 187);
+  color: #e6e9f2;
+  box-shadow: none;
+}
+.main-sect-2 .contain .course_cards .scaleimg:hover {
+  transform: scale(1.1);
+}
+.main-sect-2 .contain .course_cards .image {
+  transition: ease-in 1s; 
+}
+ @keyframes scrolling {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+/* main section 3 */
+
+.main-sect-3 {
+  background-image: url("src/assets/backg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-sect-3 .contt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+}
+.main-sect-3 .contt h2 {
+  /* background-image: linear-gradient(rgb(0, 17, 255), rgb(255, 166, 0)); */
+    /* color: transparent;
+    background-clip: text; */
+    color: white;
+    text-decoration:overline;
+    text-decoration-color: rgb(250, 200, 107);
+    font-size: 2.6rem;
+}
+.main-sect-3 .contt p {
+  text-align: center;
+  color: #0b1020ad;
+  font-size: 1.3rem;
+}
+.main-sect-3 .contt span {
+  display: flex;
+  justify-content: center;
+}
+.main-sect-3 .contt span button {
+  background-color: transparent;
+  border: 2px solid rgb(241, 194, 106);
+  color: #e6e9f2;
+}
