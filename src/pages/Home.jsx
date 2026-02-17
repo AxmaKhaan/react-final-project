@@ -35,7 +35,7 @@ export default function Home() {
             <div className="cont cont-2">
               <div className="block">
                 <span>
-                  <img src="src/assets/man smilling.svg" alt="" />
+                  <img src="/a man smilling.svg" alt="" />
                   <p>
                     Quality Education Our 100+ IT programs provide you with the
                     knowledge and skills demanded by today's tech industry.
@@ -44,7 +44,7 @@ export default function Home() {
               </div>
               <div className="block">
                 <span>
-                  <img src="src/assets/a girl smilling.svg" alt="" />
+                  <img src="/smillingGirl.svg" alt="" />
                   <p>
                     Quality Education Our 100+ IT programs provide you with the
                     knowledge and skills demanded by today's tech industry.
@@ -53,7 +53,7 @@ export default function Home() {
               </div>
               <div className="block">
                 <span>
-                  <img src="src/assets/a man smilling.svg" alt="" />
+                  <img src="/man smilling.svg" alt="" />
                   <p>
                     Quality Education Our 100+ IT programs provide you with the
                     knowledge and skills demanded by today's tech industry.
@@ -67,7 +67,7 @@ export default function Home() {
           <div className="contain">
             <div className="course_cards">
               <img
-                src="src/assets/web devlop.jpg"
+                src="/web devlop.jpg"
                 className="scaleimg image"
                 alt=""
               />
@@ -82,7 +82,7 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="src/assets/web devlop.jpg"
+                src="/web devlop.jpg"
                 className="scaleimg image"
                 alt=""
               />
@@ -97,7 +97,7 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="src/assets/web devlop.jpg"
+                src="/web devlop.jpg"
                 className="scaleimg image"
                 alt=""
               />
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="src/assets/web devlop.jpg"
+                src="/web devlop.jpg"
                 className="scaleimg image"
                 alt=""
               />
@@ -127,7 +127,7 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="src/assets/web devlop.jpg"
+                src="/web devlop.jpg"
                 className="scaleimg image"
                 alt=""
               />
@@ -142,7 +142,7 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="src/assets/web devlop.jpg"
+                src="/web devlop.jpg"
                 className="scaleimg image"
                 alt=""
               />
@@ -157,7 +157,7 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="src/assets/web devlop.jpg"
+                src="/web devlop.jpg"
                 className="scaleimg image"
                 alt=""
               />
@@ -172,7 +172,7 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="src/assets/web devlop.jpg"
+                src="/web devlop.jpg"
                 className="scaleimg image"
                 alt=""
               />
@@ -187,7 +187,7 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="src/assets/web devlop.jpg"
+                src="/web devlop.jpg"
                 className="scaleimg image"
                 alt=""
               />

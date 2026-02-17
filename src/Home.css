@@ -33,7 +33,7 @@ button:hover {
   margin-top: 0;
 }
 .hero-section .container {
-  background-image: url("src/assets/hero_img.png");
+  background-image: url("/hero_img.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -177,7 +177,7 @@ background: linear-gradient(174deg, rgba(193, 240, 247, 0.88) 0%, rgb(243, 246, 
 /* main section 3 */
 
 .main-sect-3 {
-  background-image: url("src/assets/backg.webp");
+  background-image: url("/backg.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -189,8 +189,8 @@ background: linear-gradient(174deg, rgba(193, 240, 247, 0.88) 0%, rgb(243, 246, 
   gap: 19px;
 }
 .main-sect-3 .contt h2 {
-  /* background-image: linear-gradient(rgb(0, 17, 255), rgb(255, 166, 0)); */
-    /* color: transparent;
+  /* background-image: linear-gradient(rgb(0, 17, 255), rgb(255, 166, 0));
+    color: transparent;
     background-clip: text; */
     color: white;
     text-decoration:overline;
