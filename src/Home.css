@@ -24,9 +24,11 @@ button {
   border-radius: 5px;
   margin: 0px 10px;
 }
+
 button:hover {
   box-shadow: 2px 2px 5px rgb(49, 49, 49);
   border: 2px solid #e6e9f2;
+  border: none;
 }
 .hero-section {
   padding: 0;
@@ -52,6 +54,11 @@ background: linear-gradient(90deg,rgba(42, 123, 155, 0.41) 0%, rgba(139, 87, 199
   padding: 7% 5%;
   height: 160px;
   max-height: 300px;
+}
+.hero-section .container .box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .hero-section .container .box span {
   margin: 50px 20px;
@@ -100,7 +107,8 @@ background: linear-gradient(90deg,rgba(42, 123, 155, 0.41) 0%, rgba(139, 87, 199
 }
 .m_cont .cont-2 .block span p {
   width: 300px;
-  color: rgb(110, 110, 238);
+  color: rgb(2, 2, 50);
+  text-align: center;
   font-weight: bold;
 }
 
