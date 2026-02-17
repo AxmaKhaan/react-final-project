@@ -32,7 +32,6 @@ export default function Students() {
           </select>
           <button type='submit'>submit</button>
         </form>
-        <h1>{course}</h1>
       </div>
     </section>
     </>

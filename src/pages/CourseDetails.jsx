@@ -29,7 +29,14 @@ export default function CourseDetails() {
       <ul>
         {users.filter(user => user.id === searchId)
          .map(user =>(
-            <li key={user.id}>{user.name}</li>
+            <li key={user.id} style={{background: "white", padding: "20px", listStyle: "none", borderRadius: "20px"}}>Student Name: {user.name}
+                <br/>
+                Student Email: {user.email}
+                <br/>
+                Phone : {user.phone}
+                <br/>
+                Website : {user.website}
+            </li>
          ))
         }
       </ul>
