@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import "/src/CourseDetails.css"
 
 export default function CourseDetails() {
   const [ID, setId] = useState([]);
@@ -15,14 +16,15 @@ export default function CourseDetails() {
   },[]);
   return (
     <>
-    <div className="container" style={{margin: "300px",color: "black"}}>
+    <div className='Detail_container' >
+    <div>
      <form bindsubmit="" onSubmit={handleSearch}>
         <label htmlFor="">student info by id</label>
         <input type="number" placeholder='Enter ID' value={ID} onChange={(e)=> {setId(e.target.value)}}/>
         <button type='submit'>submit</button>
      </form>
     </div>
-    <div style={{margin: "300px",color: "black"}}>
+    <div>
       <h1>user list</h1>
       <ul>
         {users.filter(user => user.id === searchId)
@@ -31,6 +33,7 @@ export default function CourseDetails() {
          ))
         }
       </ul>
+    </div>
     </div>
     </>
   )

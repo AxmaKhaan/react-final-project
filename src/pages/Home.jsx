@@ -1,8 +1,17 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "/src/Home.css";
 export default function Home() {
   return (
     <>
+       <Helmet>
+        <title>Home Page</title>
+        
+        <meta
+          name="description"
+          content="This is the home page of my React website."
+        />
+      </Helmet>
       <section className="hero-section">
         <div className="container">
           <div className="box">
@@ -82,7 +91,52 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="/web devlop.jpg"
+                src="/graphic designing.svg"
+                className="scaleimg image"
+                alt=""
+              />
+              <span>
+                <h5>Graphic Designing</h5>
+                <p>
+                  Forme image manipulation to create stunnign visual content,
+                  unleash your creativity in the digital realm.
+                </p>
+                <button className="cards-btn">Explore Programs</button>
+              </span>
+            </div>
+            <div className="course_cards">
+              <img
+                src="/digi media merketing.svg"
+                className="scaleimg image"
+                alt=""
+              />
+              <span>
+                <h5>web development</h5>
+                <p>
+                  Forme image manipulation to create stunnign visual content,
+                  unleash your creativity in the digital realm.
+                </p>
+                <button className="cards-btn">Explore Programs</button>
+              </span>
+            </div>
+            <div className="course_cards">
+              <img
+                src="/ai website generating.svg"
+                className="scaleimg image"
+                alt=""
+              />
+              <span>
+                <h5>web development</h5>
+                <p>
+                  Forme image manipulation to create stunnign visual content,
+                  unleash your creativity in the digital realm.
+                </p>
+                <button className="cards-btn">Explore Programs</button>
+              </span>
+            </div>
+            <div className="course_cards">
+              <img
+                src="/basic computer.svg"
                 className="scaleimg image"
                 alt=""
               />
@@ -112,7 +166,7 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="/web devlop.jpg"
+                src="/graphic designing.svg"
                 className="scaleimg image"
                 alt=""
               />
@@ -127,52 +181,7 @@ export default function Home() {
             </div>
             <div className="course_cards">
               <img
-                src="/web devlop.jpg"
-                className="scaleimg image"
-                alt=""
-              />
-              <span>
-                <h5>web development</h5>
-                <p>
-                  Forme image manipulation to create stunnign visual content,
-                  unleash your creativity in the digital realm.
-                </p>
-                <button className="cards-btn">Explore Programs</button>
-              </span>
-            </div>
-            <div className="course_cards">
-              <img
-                src="/web devlop.jpg"
-                className="scaleimg image"
-                alt=""
-              />
-              <span>
-                <h5>web development</h5>
-                <p>
-                  Forme image manipulation to create stunnign visual content,
-                  unleash your creativity in the digital realm.
-                </p>
-                <button className="cards-btn">Explore Programs</button>
-              </span>
-            </div>
-            <div className="course_cards">
-              <img
-                src="/web devlop.jpg"
-                className="scaleimg image"
-                alt=""
-              />
-              <span>
-                <h5>web development</h5>
-                <p>
-                  Forme image manipulation to create stunnign visual content,
-                  unleash your creativity in the digital realm.
-                </p>
-                <button className="cards-btn">Explore Programs</button>
-              </span>
-            </div>
-            <div className="course_cards">
-              <img
-                src="/web devlop.jpg"
+                src="digi media merketing.svg"
                 className="scaleimg image"
                 alt=""
               />
@@ -204,21 +213,6 @@ export default function Home() {
         </section>
 
         {/* main section 3 */}
-        <section className="main-sect-3">
-          <div className="contt">
-            <h2>Supercharge Your Career Potential</h2>
-            <p>
-              At Arfa Karim Technology Incubator, we're committed to empowering
-              your career journey. Our programs equip you with the skills that
-              today's job market craves. Whether you're starting or advancing,
-              AKTI's programs are your direct path to career success.
-            </p>
-            <span>
-              <button>How to Apply</button>
-              <button>More About AKTI</button>
-            </span>
-          </div>
-        </section>
         <section className="main-sect-3">
           <div className="contt">
             <h2>Supercharge Your Career Potential</h2>

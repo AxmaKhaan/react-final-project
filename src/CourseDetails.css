@@ -1,3 +1,17 @@
-.container input {
-    
+.Detail_container {
+    background-color: orange;
+    margin: 300px;
+    color: rgb(74, 73, 73);
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem; padding: 10px;
+}
+button {
+    color: white;
 }

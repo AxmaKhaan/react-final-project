@@ -14,7 +14,7 @@ export default function CourseCard(props) {
                 <p>
                   {props.courseDescrip}
                 </p>
-                <button className="cards-btn">Explore Programs</button>
+                <button className="cards-btn" onClick={props.onClick}>Enroll Now</button>
               </span>
             </div>
     </>
