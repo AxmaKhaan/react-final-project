@@ -17,17 +17,7 @@ export default function Navbar() {
       </nav>
     </header>
 
-    {/* footer */}
-    {/* <footer>
-      <section className="foot_section">
-        <div className="foot_container">
-          <div className="block1">
-            <img src=""></img>
-          </div>
-          <div className="block1"></div>
-        </div>
-      </section>
-    </footer> */}
+    
     </>
   )
 }

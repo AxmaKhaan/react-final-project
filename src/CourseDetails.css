@@ -7,10 +7,14 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 30px;
 }
 form label {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2rem; padding: 10px;
+}
+form input {
+    border: none;
 }
 button {
     color: white;

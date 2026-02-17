@@ -11,6 +11,7 @@ import Courses from "./pages/Courses";
 import Students from "./pages/Students";
 import CourseDetails from "./pages/CourseDetails";
 import Navbar from "./navigation/Navbar";
+import Footer from "./navigation/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Route path="/students" element={<Students />} />
       <Route path="/courseDetails" element={<CourseDetails/>}/>
     </Routes>
+    <Footer/>
     </>
   );
 }
