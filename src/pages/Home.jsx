@@ -6,7 +6,6 @@ export default function Home() {
     <>
        <Helmet>
         <title>Home Page</title>
-        
         <meta
           name="description"
           content="This is the home page of my React website."
