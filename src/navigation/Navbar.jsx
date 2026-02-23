@@ -17,7 +17,7 @@ export default function Navbar() {
     
     <header>
       <nav className={buttonClasses} >
-      <a onClick={closeSidebar}><img src="public/close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""/></a>
+      <a onClick={closeSidebar}><img src="close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""/></a>
         <div className="links1">
         
         <Link to='/' className="nav-link">Home</Link>
